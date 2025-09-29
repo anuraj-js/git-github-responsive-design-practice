@@ -60,3 +60,23 @@ nav .header {
 .menu-icon {
     display: none;
 }
+
+@media (max-width: 1000px) {
+    .nav2-items {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+        font-weight: 800;
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 800px) {
+    nav .header {
+        padding: 10px 40px 10px 30px;
+    }
+    .menu-icon {
+        font-size: 1.8rem;
+    }
+}
