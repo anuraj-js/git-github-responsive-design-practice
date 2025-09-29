@@ -111,6 +111,53 @@ main {
     width: 90%;
 }
 
+.section2-aboutus {
+    display: flex;
+    padding: 130px;
+}
+
+.section2-aboutus .left {
+    width: 40%;
+}
+
+.section2-aboutus .left img {
+    height: 90%;
+    width: 95%;
+}
+
+.section2-aboutus .right {
+    width: 60%;
+    padding: 50px;
+}
+
+.section2-aboutus .right h3 {
+    color: var(--white);
+    font-size: 1.5rem;
+}
+
+.section2-aboutus .right h2 {
+    font-size: 2.5rem;
+    padding-bottom: 25px;
+}
+
+.section2-aboutus .right p {
+    font-size: 1.2rem;
+    padding-bottom: 50px;
+}
+
+.order-btn {
+    padding: 10px 23px;
+    border: none;
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 7px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+
+
 @media (max-width: 1220px) {
     .section1-home {
         padding: 100px;
