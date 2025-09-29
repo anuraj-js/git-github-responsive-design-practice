@@ -16,4 +16,47 @@ html, body {
     width: 100%;
 }
 
+body {
+    background-color: var(--orange);
+}
 
+nav {
+    width: 100vw;
+}
+
+nav .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 100px;
+}
+
+.nav1 {
+    display: flex;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+.website-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav2 {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav2 h3 a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.nav2 h3 a:hover {
+    color: var(--white);
+}
+
+.menu-icon {
+    display: none;
+}
