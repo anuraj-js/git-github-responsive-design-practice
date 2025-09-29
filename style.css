@@ -111,6 +111,31 @@ main {
     width: 90%;
 }
 
+@media (max-width: 1220px) {
+    .section1-home {
+        padding: 100px;
+    }
+
+    .section1-home .left .title {
+        font-size: 3.5rem;
+        padding-bottom: 13px;
+    }
+
+    .section1-home .left p {
+        font-size: 1.1rem;
+        padding-bottom: 25px;
+    }
+}
+
+@media (max-width: 1040px) {
+    .section1-home {
+        padding: 90px;
+    }
+
+    .section1-home .left .title {
+        font-size: 3.2rem;
+    }
+}
 
 @media (max-width: 1000px) {
     .nav2-items {
@@ -121,13 +146,98 @@ main {
         font-weight: 800;
         font-size: 1.7rem;
     }
+
+    .section1-home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section1-home .left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+    }
+
+    .section1-home .left .title {
+        font-size: 7vw;
+    }
+
+    .section1-home .left p {
+        font-size: 1rem;
+        padding-bottom: 20px;
+    }
+
+    .expolre-btn {
+        padding: 20px;
+    }
+
+    .section1-home .right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section1-home .right img {
+        height: 80%;
+        width: 80%;
+    }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 805px) {
     nav .header {
         padding: 10px 40px 10px 30px;
     }
     .menu-icon {
         font-size: 1.8rem;
+    }
+
+    .section1-home .left {
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 700px) {
+    .section1-home {
+        padding: 70px;
+    }
+
+    .section1-home .left .title {
+        font-size: 10vw;
+    }
+
+    .section1-home .left p {
+        font-size: 0.9rem;
+        padding-bottom: 17px;
+    }
+
+    .expolre-btn {
+        padding: 17px;
+    }
+
+    .section1-home .right img {
+        height: 90%;
+        width: 90%;
+    }
+}
+
+@media (max-width: 600px) {
+    .section1-home {
+        padding: 20px;
+    }
+
+    .section1-home .left .title {
+        font-size: 13vw;
+    }
+
+    .section1-home .left p {
+        font-size: 0.85rem;
+    }
+
+    .expolre-btn {
+        padding: 15px;
     }
 }
