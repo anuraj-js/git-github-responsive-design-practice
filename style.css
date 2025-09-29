@@ -132,11 +132,11 @@ main {
 
 .section2-aboutus .right h3 {
     color: var(--white);
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 .section2-aboutus .right h2 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     padding-bottom: 25px;
 }
 
@@ -159,7 +159,7 @@ main {
 
 
 @media (max-width: 1220px) {
-    .section1-home {
+    .section1-home, .section2-aboutus {
         padding: 100px;
     }
 
@@ -214,7 +214,7 @@ main {
 
     .section1-home .left p {
         font-size: 1rem;
-        padding-bottom: 20px;
+        padding-bottom: 25px;
     }
 
     .expolre-btn {
@@ -231,12 +231,46 @@ main {
         height: 80%;
         width: 80%;
     }
+
+    .section2-aboutus {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .section2-aboutus .left {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .section2-aboutus .left img {
+        width: 85%;
+        height: 85%;
+    }
+
+    .section2-aboutus .right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+    }
+
+    .section2-aboutus .right p {
+        padding-bottom: 20px;
+    }
+
+    .order-btn {
+        padding: 20px;
+    }
 }
 
 @media (max-width: 805px) {
     nav .header {
         padding: 10px 40px 10px 30px;
     }
+
     .menu-icon {
         font-size: 1.8rem;
     }
@@ -245,10 +279,15 @@ main {
         padding: 20px;
         text-align: center;
     }
+
+    .section2-aboutus .right {
+        padding: 20px;
+        text-align: center;
+    }
 }
 
 @media (max-width: 700px) {
-    .section1-home {
+    .section1-home, .section2-aboutus {
         padding: 70px;
     }
 
@@ -261,7 +300,7 @@ main {
         padding-bottom: 17px;
     }
 
-    .expolre-btn {
+    .expolre-btn, .order-btn {
         padding: 17px;
     }
 
@@ -269,10 +308,29 @@ main {
         height: 90%;
         width: 90%;
     }
+
+    .section2-aboutus .left img {
+        height: 90%;
+        width: 90%;
+    }
+
+    .section2-aboutus .right h3 {
+        font-size: 4.5vw;
+    }
+
+    .section2-aboutus .right h2 {
+        font-size: 7vw;
+        padding-bottom: 10px;
+    }
+
+    .section2-aboutus .right p {
+        font-size: 0.85rem;
+        padding-bottom: 15px;
+    }
 }
 
 @media (max-width: 600px) {
-    .section1-home {
+    .section1-home, .section2-aboutus {
         padding: 20px;
     }
 
@@ -284,7 +342,15 @@ main {
         font-size: 0.85rem;
     }
 
-    .expolre-btn {
+    .expolre-btn, .order-btn {
         padding: 15px;
+    }
+
+    .section2-aboutus .right h3 {
+        font-size: 1.4rem;
+    }
+
+    .section2-aboutus .right h2 {
+        font-size: 10vw;
     }
 }
