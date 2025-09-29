@@ -1,3 +1,10 @@
+:root {
+    --orange: #F99123;
+    --white: #fbf5dd;
+    --black: #0C0E0F;
+    --cream: #F8EECC;
+}
+
 * {
     margin: 0;
     padding: 0;
