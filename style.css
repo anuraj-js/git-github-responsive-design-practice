@@ -22,7 +22,10 @@ body {
 }
 
 nav {
-    width: 100vw;
+    width: 99vw;
+    position: fixed;
+    top: 0;
+    backdrop-filter: blur(5px);
 }
 
 nav .header {
@@ -334,8 +337,13 @@ main {
 }
 
 @media (max-width: 600px) {
+    main {
+        padding-top: 50px;
+    }
+
     .section1-home, .section2-aboutus {
         padding: 20px;
+        padding-bottom: 70px;
     }
 
     .section1-home .left .title {
