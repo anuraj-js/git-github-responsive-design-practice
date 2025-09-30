@@ -314,6 +314,62 @@ main {
     border-radius: 10px;
 }
 
+.section5-contact {
+    background-color: var(--cream);
+    padding: 150px 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-container {
+    display: flex;
+    width: 80%;
+    height: 250px;
+}
+
+.contact-container .left, .contact-container .right {
+    width: 50%;
+}
+
+.contact-container .left .highlight {
+    font-size: 4.5rem;
+    color: var(--orange);
+}
+
+.contact-container .left h2 {
+    font-size: 3.9rem;
+}
+
+.contact-container .right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+}
+
+.contact-container .right .line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-container .right .line .title {
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding-bottom: 7px;
+}
+
+.contact-icons {
+    font-size: 1.5rem;
+    color: var(--orange);
+}
+
+.contact-container .right .line span {
+    font-size: 0.9rem;
+}
+
 @media (max-width: 1220px) {
     .section1-home, .section2-aboutus {
         padding: 100px;
