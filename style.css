@@ -309,6 +309,10 @@ main {
         width: 90%;
     }
 
+    .section1-home .right, .section2-aboutus .left {
+        padding-bottom: 120px;
+    }
+
     .section2-aboutus .left img {
         height: 90%;
         width: 90%;
