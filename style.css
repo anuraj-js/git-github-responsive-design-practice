@@ -244,7 +244,6 @@ main {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    padding-top: 50px;
     gap: 20px;
     padding: 50px;
     border-radius: 10px;
@@ -265,7 +264,7 @@ main {
 }
 
 .section4-combo h2 {
-    font-size: 2.8rem;
+    font-size: 5rem;
     text-align: center;
 }
 
@@ -274,7 +273,7 @@ main {
 }
 
 .combo-img-container {
-    width: 60%;
+    width: 70%;
     margin-top: 40px;
 }
 
@@ -329,6 +328,38 @@ main {
         font-size: 1.1rem;
         padding-bottom: 25px;
     }
+
+    .section3-orders {
+        padding: 80px;
+    }
+
+    .order-title {
+        font-size: 2.9rem;
+        padding-top: 100px;
+        padding-bottom: 60px;
+    }
+
+    .order1 {
+        padding: 70px;
+        width: 80%;
+    }
+
+    .order2 {
+        width: 80%;
+    }
+
+    .section4-combo {
+        padding: 150px;
+    }
+
+    .section4-combo h2 {
+        font-size: 4.5rem;
+    }
+
+    .combo-img-container {
+        width: 80%;
+        margin-top: 30px;
+    }
 }
 
 @media (max-width: 1040px) {
@@ -338,6 +369,15 @@ main {
 
     .section1-home .left .title {
         font-size: 3.2rem;
+    }
+
+    .order1 {
+        padding: 50px 0;
+        width: 85%;
+    }
+
+    .order2 {
+        width: 85%;
     }
 }
 
@@ -421,6 +461,52 @@ main {
     .order-btn {
         padding: 20px;
     }
+
+    .section3-orders {
+        padding: 60px 60px 200px 60px;
+    }
+
+    .order-title {
+        font-size: 6vw;
+        white-space: nowrap;
+    }
+
+    .order1 {
+        padding: 50px;
+        width: 90%;
+    }
+
+    .order2 {
+        width: 90%;
+    }
+
+    .section4-combo {
+        padding: 120px 100px 120px 100px;
+    }
+
+    .section4-combo h2 {
+        font-size: 5rem;
+    }
+
+    .combo-img-container {
+        width: 90%;
+    }
+
+    .product-description .title, .product-description .price {
+        padding: 15px;
+    }
+
+    .product-description .title {
+        font-size: 0.9rem;
+    }
+
+    .product-description .title .highlight {
+        font-size: 1.25rem;
+    }
+
+    .product-description .price {
+        font-size: 1.5rem;
+    }
 }
 
 @media (max-width: 805px) {
@@ -441,6 +527,76 @@ main {
         padding: 20px;
         text-align: center;
     }
+
+    .section3-orders {
+        padding: 40px 40px 220px 40px;
+    }
+
+    .order-title {
+        font-size: 5.5vw;
+        white-space: nowrap;
+    }
+
+    .order1 {
+        padding: 20px 0;
+        width: 98%;
+    }
+
+    .order2 {
+        padding: 0;
+        width: 98%;
+    }
+
+    .order1-description .container, .order2-description .container {
+        height: 150px; 
+        padding: 10px; 
+    }
+
+    .order1-description h4, .order2-description h4 {
+        font-size: 1.5rem;
+    }
+
+    .order1-description p, .order2-description p {
+        font-size: 1.1rem;
+        padding-bottom: 10px;
+    }
+
+    .order1-price span, .order2-price span {
+        font-size: 1.5rem;
+    }
+
+    .order1-price .icon i, .order2-price .icon i {
+        font-size: 1.2rem;
+    }
+
+    .section4-combo {
+        padding: 120px 70px 120px 70px;
+    }
+
+    .section4-combo h2 {
+        font-size: 9vw;
+    }
+
+    .product-description .title, .product-description .price {
+        padding: 12px;
+    }
+
+    .product-description .title {
+        font-size: 0.8rem;
+    }
+
+    .product-description .title .highlight {
+        font-size: 1.2rem;
+    }
+
+    .product-description .price {
+        font-size: 1.4rem;
+    }
+
+    .combo-img-container {
+        width: 95%;
+    }
+
 }
 
 @media (max-width: 700px) {
@@ -488,6 +644,59 @@ main {
         font-size: 0.85rem;
         padding-bottom: 15px;
     }
+
+    .section3-orders {
+        padding: 30px 30px 220px 30px;
+    }
+
+    .order1 {
+        width: 99%;
+    }
+
+    .order1 img, .order2 img {
+        width: 40%;
+    }
+
+    .order2 {
+        padding: 20px 0;
+        width: 99%;
+    }
+
+    .order-title {
+        font-size: 2.5rem;
+    }
+
+    .order1-description .container, .order2-description .container {
+        height: 120px; 
+    }
+
+    .order1-description h4, .order2-description h4 {
+        font-size: 1.2rem;
+    }
+
+    .order1-description p, .order2-description p {
+        font-size: 1rem;
+    }
+
+    .order1-price span, .order2-price span {
+        font-size: 1.2rem;
+    }
+
+    .order1-price .icon i, .order2-price .icon i {
+        font-size: 1rem;
+    }
+
+    .section4-combo {
+        padding: 160px 40px;
+    }
+
+    .section4-combo h2 {
+        font-size: 11vw;
+    }
+
+    .combo-img-container {
+        width: 98%;
+    }
 }
 
 @media (max-width: 600px) {
@@ -518,5 +727,49 @@ main {
 
     .section2-aboutus .right h2 {
         font-size: 10vw;
+    }
+
+    .section3-orders {
+        padding: 20px 20px 210px 20px;
+    }
+
+    .order-title {
+        font-size: 6vw;
+    }
+
+    .order1-description .container, .order2-description .container {
+        height: 110px; 
+    }
+
+    .order1-description h4, .order2-description h4 {
+        font-size: 1rem;
+    }
+
+    .order1-description p, .order2-description p {
+        font-size: 0.8rem;
+    }
+
+    .section4-combo {
+        padding: 190px 15px;
+    }
+
+    .section4-combo h2 {
+        font-size: 3.4rem;
+    }
+
+    .product-description .title, .product-description .price {
+        padding: 14px;
+    }
+
+    .product-description .title {
+        font-size: 0.7rem;
+    }
+
+    .product-description .title .highlight {
+        font-size: 1rem;
+    }
+
+    .product-description .price {
+        font-size: 1rem;
     }
 }
