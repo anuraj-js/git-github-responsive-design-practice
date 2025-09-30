@@ -116,7 +116,7 @@ main {
 
 .section2-aboutus {
     display: flex;
-    padding: 130px;
+    padding: 140px;
 }
 
 .section2-aboutus .left {
@@ -158,7 +158,104 @@ main {
     cursor: pointer;
 }
 
+.section3-orders {
+    background-color: var(--cream);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
 
+.order-title {
+    font-size: 2.7rem;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.order-title .highlight {
+    color: var(--orange);
+}
+
+.order1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+    border-radius: 10px;
+    border: 2px solid var(--black);
+    width: 60%;
+}
+
+.order1 img {
+    width: 30%;
+}
+
+.order1-description, .order2-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+
+.order1-description .container, .order2-description .container {
+    height: 200px;
+    background-color: var(--orange);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    padding: 20px; 
+    border-radius: 10px;
+}
+
+.order1-description h4, .order2-description h4 {
+    font-size: 2rem;
+    color: var(--white);
+}
+
+.order1-description p, .order2-description p {
+    font-size: 1.3rem;
+    padding-bottom: 15px;
+}
+
+.order1-price, .order2-price {
+    display: flex;
+    gap: 10px;
+}
+
+.order1-price span, .order2-price span {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.order1-price .icon, .order2-price .icon {
+    width: 20%;
+    border-radius: 5px;
+    background-color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order1-price .icon i, .order2-price .icon i {
+    font-size: 1.5rem;
+    color: var(--orange);
+}
+
+.order2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 20px;
+    padding: 50px;
+    border-radius: 10px;
+    border: 2px solid var(--black);
+    margin-top: 50px;
+    width: 60%;
+}
+
+.order2 img {
+    width: 50%;
+}
 
 
 @media (max-width: 1220px) {
