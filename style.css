@@ -361,9 +361,21 @@ main {
     padding-bottom: 7px;
 }
 
+.contact-container .right .line .title1 {
+    margin-bottom: 4px;
+}
+
 .contact-icons {
-    font-size: 1.5rem;
     color: var(--orange);
+}
+
+#icon {
+    font-size: 1.4rem;
+}
+
+#icon:hover {
+    font-size: 1.8rem;
+    cursor: pointer;
 }
 
 .contact-container .right .line span {
