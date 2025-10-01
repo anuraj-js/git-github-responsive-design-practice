@@ -382,6 +382,68 @@ main {
     font-size: 0.9rem;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+    padding: 80px 50px;
+}
+
+.footer-logo-container {
+    display: flex;
+}
+
+.footer-logo-container img {
+    width: 30px;
+    height: 30px;
+}
+
+footer p {
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+
+footer .title {
+    font-size: 1.3rem;
+    padding-bottom: 7px;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 7px;
+    font-size: 1.1rem;
+}
+
+.footer-cards {
+    display: flex;
+    gap: 4px;
+    width: 50%;
+}
+
+.footer-cards .footer-card {
+    width: 20%;
+}
+
+.footer-cards .footer-card img {
+    width: 100%;
+}
+
+.subscribe-box input {
+    padding: 9px 50px 9px 15px;
+    background-color: var(--cream);
+    border: none;
+    border-radius: 5px;
+}
+
+.subscribe-box button {
+    padding: 9px 18px;
+    background-color: var(--black);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+}
+
 @media (max-width: 1220px) {
     .section1-home, .section2-aboutus {
         padding: 100px;
