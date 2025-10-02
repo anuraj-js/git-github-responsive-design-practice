@@ -65,6 +65,43 @@ nav .header {
     display: none;
 }
 
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: var(--orange);
+    height: 100%;
+    width: 50vw;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+    z-index: 10;
+    overflow-y: auto;
+}
+
+.sidebar h3 {
+    font-size: 1.5rem;
+    white-space: nowrap;
+}
+
+.sidebar a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 5;
+}
+
 main {
     width: 100vw;
 }
@@ -802,6 +839,10 @@ footer .title {
 
     .subscribe-box button {
         padding: 9px 10px;
+    }
+
+    .sidebar {
+        width: 60vw;
     }
 }
 
