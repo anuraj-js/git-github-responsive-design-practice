@@ -457,6 +457,13 @@ footer .title {
     border-radius: 5px;
 }
 
+.copyright-msg {
+    display: flex;
+    justify-content: center;
+    padding: 70px 30px;
+    font-weight: 800;
+}
+
 @media (max-width: 1220px) {
     .section1-home, .section2-aboutus {
         padding: 100px;
@@ -926,6 +933,12 @@ footer .title {
 
     .footer-cards .footer-card {
         width: 10%;
+    }
+
+    .copyright-msg {
+        padding: 80px 40px;
+        font-weight: 900;
+        font-size: 0.75rem;
     }
 }
 
