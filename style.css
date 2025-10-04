@@ -406,11 +406,15 @@ main {
     color: var(--orange);
 }
 
-#icon {
+#icon1, 
+#icon2, 
+#icon3 {
     font-size: 1.4rem;
 }
 
-#icon:hover {
+#icon1:hover, 
+#icon2:hover, 
+#icon3:hover {
     font-size: 1.8rem;
     cursor: pointer;
 }
